@@ -1,3 +1,14 @@
+Debug/
+Release/
+.settings/
+
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.hex
+*.bin
 # Prerequisites
 *.d
 
