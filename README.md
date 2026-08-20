@@ -102,20 +102,19 @@ stm32-baremetal-02-gpio-input
 
 ---
 
-## 🔜 Next Project
+## ➡️ Next Project
 
-**STM32 Bare-Metal 03 – GPIO Driver**
+### STM32 Bare-Metal 03 – Traffic Light
 
-In the next project, direct register manipulation will be abstracted into reusable GPIO driver APIs such as:
+The next project will build a simple traffic light system using STM32 GPIO control.
 
-```c
-GPIO_Init();
-GPIO_WritePin();
-GPIO_ReadPin();
-GPIO_TogglePin();
-```
+The project will use multiple LEDs to simulate:
 
-making future embedded applications cleaner and easier to maintain.
+- 🔴 Red light
+- 🟡 Yellow light
+- 🟢 Green light
+
+This will provide practical experience with controlling multiple GPIO outputs and implementing a basic sequential control system.
 
 ---
 
